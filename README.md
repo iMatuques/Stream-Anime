@@ -1,6 +1,10 @@
 <h1 align="center"> Stream de Anime </h1>
 
 <p align="center">
+  <img alt="" src="https://cdn.discordapp.com/attachments/930441255140352040/1085258624412176385/png_anime.png" width="80%">
+</p>
+
+<p align="center">
 </p>
 
 <br>
