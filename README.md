@@ -21,7 +21,7 @@ Projeto baseado em um stream de anime.
 
 
 <p align="center">
-  <img alt="" src="https://cdn.discordapp.com/attachments/930441255140352040/1085258624412176385/png_anime.png"">
+  <img alt="" src="https://cdn.discordapp.com/attachments/930441255140352040/1085260208772743269/Screenshot_1.png" width="80%">
 </p>
 
 <br>
