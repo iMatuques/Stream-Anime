@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../CSS/webs-anime.css">
+    <script src="../JS/webs-anime.js"></script>
     <title>Anime WebSite</title>
 </head>
 
@@ -57,6 +58,7 @@
                 <h2>Animes recomendados</h2>
                 <div class="view">
                     <button class="btn primary">Sua lista</button>
+                    <button class="btn primary">Curtidos</button>
                 </div>
             </section>
             <section class="cards">
@@ -66,13 +68,17 @@
 
                     <div class="card-content">
                         <h3>JUJUTSU KAISEN
-                            <i class="ph-bookmark-simple"></i>
-                            <i class="ph-heart-straight"></i>
+                            <div class="likes">
+                                <i class="ph-bookmark-simple"></i>
+                                <i class="ph-heart-straight"></i>
+                            </div> 
                         </h3>
                         <p> Certo dia, para salvar amigos que estavam sendo atacados por Maldições, Yuji Itadori engole
-                            o dedo do Ryomen-Sukuna, absorvendo sua Maldição. Ele então decide se matricular no Colégio
-                            Técnico de Feitiçaria de Tóquio, uma organização que combate as Maldições... e assim começa
-                            a heróica lenda do garoto que tornou-se uma Maldição para exorcizar uma Maldição.</p>
+                            o dedo do Ryomen-Sukuna, absorvendo sua Maldição. Ele então decide<span id="pontos">...</span><span id="mais"> se matricular no Colégio
+                            Técnico de Feitiçaria de Tóquio, uma organização que combate as Maldições  e assim começa
+                            a heróica lenda do garoto que tornou-se uma Maldição para exorcizar uma Maldição.</span></p>
+
+                            <button onclick="leiaMais()" id="btnLeiaMais">Leia Mais</button>
 
                         <div class="star">
                             Classificação: 4.9 |
@@ -81,6 +87,12 @@
                             <i><i class="ph-star-fill"></i></i>
                             <i><i class="ph-star-fill"></i></i>
                             <i><i class="ph-star-fill"></i></i>
+                        </div>
+                       
+                        <div class="btn-bottom">
+                            <button class="description1">Ação</button>
+                            <button class="description2">Shounen</button>
+                            <button class="description3">Sobrenatural</button>
                         </div>
                     </div>
                 </div>
@@ -91,15 +103,19 @@
 
                     <div class="card-content">
                         <h3>Demon Slayer: Kimetsu no Yaiba
-                            <i class="ph-bookmark-simple"></i>
-                            <i class="ph-heart-straight"></i>
+                            <div class="likes">
+                                <i class="ph-bookmark-simple"></i>
+                                <i class="ph-heart-straight"></i>
+                            </div> 
                         </h3>
                         <p>Tanjiro, um bondoso jovem que ganha a vida vendendo carvão, descobre que sua família foi
-                            massacrada por um demônio. E pra piorar, Nezuko, sua irmã mais nova e única sobrevivente,
+                            massacrada por um demônio e pra piorar, Nezuko<span id="pontos">...</span><span id="mais">  sua irmã mais nova e única sobrevivente,
                             também foi transformada num demônio. Arrasado com esta sombria realidade, Tanjiro decide se
                             tornar um matador de demônios para fazer sua irmã voltar a ser humana, e para matar o
                             demônio que matou sua família. Um triste conto sobre dois irmãos, onde os destinos dos
-                            humanos e dos demônios se entrelaçam, começa agora. </p>
+                            humanos e dos demônios se entrelaçam, começa agora. </span></p>
+
+                            <button onclick="leiaMais()" id="btnLeiaMais">Leia Mais</button>
 
                         <div class="star">
                             Classificação: 4.9 |
@@ -108,6 +124,12 @@
                             <i><i class="ph-star-fill"></i></i>
                             <i><i class="ph-star-fill"></i></i>
                             <i><i class="ph-star-fill"></i></i>
+                        </div>
+
+                        <div class="btn-bottom">
+                            <button class="description1">Ação</button>
+                            <button class="description2">Shounen</button>
+                            <button class="description3">Fantasia</button>
                         </div>
                     </div>
                 </div>
@@ -118,16 +140,20 @@
 
                     <div class="card-content">
                         <h3>Black Clover
-                            <i class="ph-bookmark-simple"></i>
-                            <i class="ph-heart-straight"></i>
+                            <div class="likes">
+                                <i class="ph-bookmark-simple"></i>
+                                <i class="ph-heart-straight"></i>
+                            </div> 
                         </h3>
-                        <p>Num mundo onde magia é tudo, Asta e Yuno são abandonados em uma igreja no mesmo dia. Enquanto
-                            Yuno possui poderes mágicos excepcionais, Asta é a única pessoa do mundo todo desprovida
-                            desse dom. Aos quinze anos, ambos recebem grimórios - livros mágicos que amplificam os
+                        <p>Num mundo onde magia é tudo, Asta e Yuno são abandonados em uma igreja no mesmo dia, enquanto
+                            Yuno possui poderes mágicos excepcionais<span id="pontos">...</span><span id="mais">  Asta é a única pessoa do mundo todo desprovida
+                            desse dom  Aos quinze anos, ambos recebem grimórios - livros mágicos que amplificam os
                             poderes do detentor. Asta recebe um raro grimório de anti-magia, capaz de negar e repelir os
                             feitiços do oponente. Dois opostos que nutrem uma rivalidade amigável, Yuno e Asta estão
                             prontos para encarar os mais difíceis desafios para conquistar seu sonho em comum: tornar-se
-                            o Rei dos Feiticeiros. Desistir não é opção! </p>
+                            o Rei dos Feiticeiros. Desistir não é opção!</span> </p>
+
+                            <button onclick="leiaMais()" id="btnLeiaMais">Leia Mais</button>
 
                         <div class="star">
                             Classificação: 4.8 |
@@ -136,6 +162,13 @@
                             <i><i class="ph-star-fill"></i></i>
                             <i><i class="ph-star-fill"></i></i>
                             <i><i class="ph-star-fill"></i></i>
+                        </div>
+
+                        <div class="btn-bottom">
+                            <button class="description1">Ação</button>
+                            <button class="description2">Shounen</button>
+                            <button class="description3">Aventura</button>
+                            <button class="description4">Comédia</button>
                         </div>
                     </div>
                 </div>
@@ -146,15 +179,18 @@
 
                     <div class="card-content">
                         <h3>TOKYO GHOUL
-                            <i class="ph-bookmark-simple"></i>
-                            <i class="ph-heart-straight"></i>
+                            <div class="likes">
+                                <i class="ph-bookmark-simple"></i>
+                                <i class="ph-heart-straight"></i>
+                            </div> 
                         </h3>
                         <p>Um novo e emocionante episódio se desenrola em Tóquio, apenas dois anos após o ataque a
-                            Anteiku. Contrariando um ressurgimento de ghouls, o CCG seleciona o jovem oficial Haise
+                            Anteiku, contrariando um ressurgimento de ghouls<span id="pontos">...</span><span id="mais">  o CCG seleciona o jovem oficial Haise
                             Sasaki para liderar uma equipe indisciplinada de humanos infundidos com poderes de ghouls.
                             Conhecidos como o Esquadrão Quinx, eles cruzam a linha entre humanos e ghouls para livrar o
-                            mundo de sua ameaça mais assustadora. Mas ninguém disse que seria fácil. A caça vai começar!
-                        </p>
+                            mundo de sua ameaça mais assustadora. Mas ninguém disse que seria fácil. A caça vai começar!</span></p>
+
+                            <button onclick="leiaMais()" id="btnLeiaMais">Leia Mais</button>
 
                         <div class="star">
                             Classificação: 4.5 |
@@ -163,6 +199,13 @@
                             <i><i class="ph-star-fill"></i></i>
                             <i><i class="ph-star-fill"></i></i>
                             <i><i class="ph-star-half-fill"></i></i>
+                        </div>
+
+                        <div class="btn-bottom">
+                            <button class="description1">Ação</button>
+                            <button class="description2">Seinen</button>
+                            <button class="description3">Drama</button>
+                            <button class="description4">Suspense</button>
                         </div>
                     </div>
                 </div>
@@ -173,16 +216,20 @@
 
                     <div class="card-content">
                         <h3>DARLING in the FRANXX
-                            <i class="ph-bookmark-simple"></i>
-                            <i class="ph-heart-straight"></i>
+                            <div class="likes">
+                                <i class="ph-bookmark-simple"></i>
+                                <i class="ph-heart-straight"></i>
+                            </div> 
                         </h3>
                         <p>A humanidade se estabeleceu em Latifúndios, cidades-fortalezas erguidas sobre os destroços da
-                            guerra, e a civilização floresceu. Nessa cidade, há o Mistilteinn, um quartel de pilotos
+                            guerra, e a civilização floresceu<span id="pontos">...</span><span id="mais">Nessa cidade, há o Mistilteinn, um quartel de pilotos
                             também conhecido como Gaiola. É lá que as crianças vivem... Alheios ao mundo de fora e da
                             vastidão dos céus. Sua única missão em vida é lutar.
                             Seus inimigos são os urrossauros, gigantescos organismos misteriosos. As crianças operam
                             robôs chamados FRANXX para enfrentar esses inimigos desconhecidos, crentes de que esse é seu
-                            objetivo de vida</p>
+                            objetivo de vida</span></p>
+
+                            <button onclick="leiaMais()" id="btnLeiaMais">Leia Mais</button>
 
                         <div class="star">
                             Classificação: 4.6 |
@@ -191,6 +238,12 @@
                             <i><i class="ph-star-fill"></i></i>
                             <i><i class="ph-star-fill"></i></i>
                             <i><i class="ph-star-fill"></i></i>
+                        </div>
+
+                        <div class="btn-bottom">
+                            <button class="description1">Ação</button>
+                            <button class="description2">Romance</button>
+                            <button class="description4">Ficção Científica</button>
                         </div>
                     </div>
                 </div>
@@ -201,14 +254,18 @@
 
                     <div class="card-content">
                         <h3>My Hero Academia
-                            <i class="ph-bookmark-simple"></i>
-                            <i class="ph-heart-straight"></i>
+                            <div class="likes">
+                                <i class="ph-bookmark-simple"></i>
+                                <i class="ph-heart-straight"></i>
+                            </div> 
                         </h3>
                         <p>Por toda a sua vida, Izuku sonhou ser um heroi — um objetivo ambicioso para qualquer um, mas
-                            especialmente desafiador para um garoto sem superpoderes. Isso mesmo: em um mundo onde 80%
+                            especialmente desafiador para um garoto sem superpoderes<span id="pontos">...</span><span id="mais"> Isso mesmo: em um mundo onde 80%
                             da população tem algum tipo de Dom especial, Izuku teve a má sorte de nascer completamente
                             normal. Mas isso não vai impedi-lo de se matricular em uma das academias de herois mais
-                            prestigiosas do mundo. </p>
+                            prestigiosas do mundo.</span></p>
+
+                            <button onclick="leiaMais()" id="btnLeiaMais">Leia Mais</button>
 
                         <div class="star">
                             Classificação: 4.7 |
@@ -217,6 +274,12 @@
                             <i><i class="ph-star-fill"></i></i>
                             <i><i class="ph-star-fill"></i></i>
                             <i><i class="ph-star-fill"></i></i>
+                        </div>
+
+                        <div class="btn-bottom">
+                            <button class="description1">Ação</button>
+                            <button class="description2">Fantasia</button>
+                            <button class="description4">Shounen</button>
                         </div>
                     </div>
                 </div>

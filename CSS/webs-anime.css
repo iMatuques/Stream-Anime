@@ -29,7 +29,6 @@
 }
 
 .primary {
-    background: #ff6200;
     border-radius: 0.5rem;
     color: #FFFFFF;
 }
@@ -129,6 +128,7 @@ form {
 .select i {
     color: #000000;
     font-size: 2.4rem;
+    cursor: pointer;
 }
 
 input,
@@ -141,11 +141,10 @@ select {
 form button {
     padding: 1.2rem 3.2rem;
     background: #ff6200;
-
 }
 
 .primary:hover {
-    background: #ffa600;
+    background: #ff6200;
     color: #ffffff;
 }
 
@@ -162,7 +161,7 @@ section.top {
 
 .view {
     display: flex;
-    padding: 8px;
+    padding: 4px;
     border: 1px solid #eaeaea;
     border-radius: 6px;
 }
@@ -197,6 +196,7 @@ section.cards {
     font-family: 'Fira Sans', sans-serif;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .card-content h3 i {
@@ -213,7 +213,48 @@ section.cards {
 
 .star i {
     display: flex;
+    display: flex;
     align-items: center;
     font-size: 1.6rem;
     cursor: pointer;
+}
+
+#mais {
+    display: none;
+}
+
+#btnLeiaMais {
+    color: #ff6200;
+    cursor: pointer;
+}
+
+.btn-bottom {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+}
+
+.description1, .description2, .description3, .description4{
+    background: #4b4b4b;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+.description1:hover {
+    background: #808080;
+}
+
+.description2:hover {
+    background: #808080;
+}
+
+.description3:hover {
+    background: #808080;
+}
+
+.likes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
