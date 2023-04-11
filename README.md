@@ -1,4 +1,4 @@
-<h1 align="center"> Stream de Anime </h1>
+<h1 align="center"> Stream de Anime</h1>
 
 <p align="center">
 </p>
@@ -17,7 +17,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
 
 
-Projeto baseado em um stream de anime.
+Layout de um stream de anime.
 
 
 <p align="center">
