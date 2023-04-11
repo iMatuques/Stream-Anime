@@ -26,7 +26,3 @@ Projeto baseado em um stream de anime.
 
 <br>
 
-## 📚 Estudos • Plataformas
-
- - Conceitos básicos de HTML e CSS.
- - Javascript.
